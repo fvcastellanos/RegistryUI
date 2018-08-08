@@ -7,13 +7,15 @@ import { IndexComponent } from './index/index.component';
 import { RouterModule } from '../../node_modules/@angular/router';
 import { ROUTES } from './app.routes';
 import { MainComponent } from './main/main.component';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CatalogComponent,
     IndexComponent,
-    MainComponent
+    MainComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,
